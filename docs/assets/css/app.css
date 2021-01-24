@@ -1,0 +1,32 @@
+:root {
+    --primary-color: #333333;
+    --seconday-color: #026e00;
+}
+
+* {
+    box-sizing: border-box;    
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container > article {
+    outline: 1px solid var(--seconday-color);
+    height: 150px;
+    min-width: 150px;
+    width: 100%;
+}
+
+.header {
+    min-height: 70px;
+    background-color: var(--primary-color);
+}
+
